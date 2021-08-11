@@ -9,7 +9,7 @@ int main(){
 		}else if (numero > 0){
 			cout << numero << " e positivo";
 		}else {
-			cout << numero << " e nulo";
+			cout << numero << " e negativo";
 		}	
 	}
 		
