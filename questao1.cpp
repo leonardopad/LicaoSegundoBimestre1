@@ -13,7 +13,9 @@ int main(){
 	distancia = (tempoViagem / 60) * velMedia; //não esquecer os parenteses
 	litrosUsados = distancia / 12;
 	
-	cout << "A viagem consumiu aproximadamente " << litrosUsados << "lts.";
+	cout << "A viagem consumiu aproximadamente " << litrosUsados << "lts. \n";
+	cout << "Na velocidade media de " << velMedia;
+	cout << "em um tempo de equivalentes " << tempoViagem << "minutos";
 
 	return 0;	
 }
